@@ -1,13 +1,15 @@
 export const config = {
   "dev": {
-    "username": "",
-    "password": "",
-    "database": "",
-    "host": "",
+    "username": "fwd",
+    "password": "fwdcoredb",
+    "database": "postgres",
+    "host": "fwd-core.cn1vskzfgclt.us-east-1.rds.amazonaws.com",
     "dialect": "postgres",
-    "aws_region": "us-east-2",
+    "aws_region": "us-east-1",
     "aws_profile": "default",
-    "aws_media_bucket": "udagram-ruttner-dev"
+
+        "aws_media_bucket": "udagram-4315120000-bucket"
+
   },
   "jwt": {
     "secret": " "
